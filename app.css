@@ -12,10 +12,23 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: white;
+    background-color: rgb(189, 188, 188);
     box-shadow: 0px 9px 14px 2px rgba(138,138,138,1);
     padding: 0 2rem 0 2rem;
     font-size: 4rem;
+    z-index: 1;
+}
+
+#nav, h1{
+    margin: 0;
+}
+
+#backgroundCanvas{
+    position: absolute;
+    right: 15%;
+    top: 10%;
+    width: 70%;
+    height: 100%;
 }
 
 #LogoNav{
@@ -23,6 +36,10 @@ body{
 }
 
 canvas{
-    border: 10px solid grey;
-    margin: 3rem 30rem 0rem 30rem
+    width: 49.5%;
+    position: absolute;
+    right: 32.5%;
+    top: 31%;
+    height: 56.5%;
+    border-radius: 5%;
 }
