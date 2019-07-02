@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Barriecito&display=swap');
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Barriecito', cursive;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0px 9px 14px 2px rgba(138,138,138,1);
+    padding: 0 2rem 0 2rem;
+    font-size: 4rem;
+}
+
+#LogoNav{
+    width: 7%;
+}
+
+canvas{
+    border: 10px solid grey;
+    margin: 3rem 30rem 0rem 30rem
+}
